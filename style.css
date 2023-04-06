@@ -1,0 +1,704 @@
+/*For standard editing  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* html{
+    scroll-behavior: smooth;
+} 
+
+/* For Nav Bar Logo and lists*/
+  
+.logoImg{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.logoImg {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      right: -100px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+  
+  .logoImg {
+    animation: slide-in 2s ease-in-out;
+  }
+  
+  
+  
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+   
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7)
+
+}
+
+.nav-list{
+            width: 70%;
+            /* background-color: green; */
+            display: flex;
+            align-items: center;
+   
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: skyblue;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.rightNav{
+    /* background-color: purple; */
+    width: 30%;
+    text-align: left;
+    padding: 0 23px;
+}
+.backgroundIMG{
+    background: rgba(0, 0, 0, 0.7) url('Austin A40 Somerset.jpeg');
+    background-size:cover;
+    background-blend-mode:darken;
+    
+}
+/*Avanced Editing
+/* Style for section-b */
+ .section-b {
+    background-color: #567189; 
+    padding: 50px 0px;
+  }
+  /* .bgimage{
+    background-image: url(bgform.jpg);
+  } */
+  .section-b .main-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-b .text-big {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .section-b .car-models {
+    display: flex;
+    justify-content: center;
+  }
+  .section-b .car-model {
+    margin: 0 30px;
+    text-align: center;
+  }
+  .section-b .car-model img {
+    max-width: 100%;
+    height: auto;
+  }
+  .section-b .model-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+   
+  /* Style for section-c */
+   .section-c {
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+  }
+  .section-c .main-box {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .section-c .text-big {
+    font-size: 36px;
+    font-weight: bold;
+     margin-bottom: 30px; 
+  }
+  .section-c .reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-c .review {
+    width: 300px;
+    margin: 0 30px 30px;
+    text-align: center;
+  }
+  .section-c .review img {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 20px;
+  }
+  .section-c .review-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .section-c .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  } 
+  
+  /* Style for footer */
+  footer {
+    background-color: #00FFC6;
+    color: #000000;
+    padding: 10px 0;
+  }
+  .footer-main-div {
+    max-width: 1200px;
+    margin:0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .footer-social-icons ul {
+    display: flex;
+  } 
+  .footer-social-icons ul li {
+    margin-right: 20px;
+  }
+  .footer-social-icons ul li:last-child {
+    margin-right: 0;
+  }
+  .footer-social-icons ul li a {
+    color: #010101;
+    font-size: 24px;
+  }
+  .footer-menu ul {
+    display: flex;
+  }
+  .footer-menu ul li {
+    margin-right: 20px;
+  }
+  .footer-menu ul li:last-child {
+    margin-right: 0;
+  }
+  .footer-menu ul li a {
+    color: #000000;
+    font-size: 18px;
+  }
+  .footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+  .backgroundIMG{
+    background-image: url("Austin\ A40\ Somerset.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+   
+  /* Style for text in footer background image */
+  .text-footer {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 50px 0;
+  }  
+
+
+
+
+/*For Section-1 tag styling*/
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    margin: auto;
+    max-width: 50%;
+    height: 35%;
+    
+    
+}
+
+.section-a{
+    height: 100vh;
+}
+
+.firsthalf{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.secondhalf{
+      width: 30%;
+}
+
+.secondhalf img{
+   
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50px; 
+    float: right;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+   
+}
+.secondhalf img:hover{
+    transform: scale(1.1);
+    box-shadow: -5px -5px -10px rgba(0,0,0,0.3);
+}
+.text-big{
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+
+}
+.text-logo {
+  font-size: 40px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  animation: slide-in 3s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    right: -100px;
+    opacity: 0;
+  }
+  50% {
+    right: 0;
+    opacity: 0.7;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+
+
+.text-small {
+        font-size: 35px;
+        position:absolute;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        text-align:center;
+        animation: slide-up 2s forwards;
+
+}
+@keyframes slide-up {
+  0% {
+    bottom: -100;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+.sectionRB text-small{
+    font-size: 35px;
+        position:absolute;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        text-align:center;
+        animation: slide-up 2s forwards;
+}
+.blink-text {
+    text-align: center;
+    font-size:x-large;
+    animation: blink 2s infinite;
+    background-color: #FDB827;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+.btn{
+    padding: 8px 16px;
+    margin: 7px 4px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background: none;
+    color: gray;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+
+
+/*For Section-2 tag styling*/
+
+.section{
+     /* height: 300px; */
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 1444px;
+     margin: auto;
+     padding: 34px 23px;
+     font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    padding: 34px 23px;
+}
+.sectionL{
+    flex-direction: row-reverse;
+}
+
+.sectionRB{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .sectionRA{
+
+} */
+.cars1 img{
+    width: 1434px;
+    border-radius: 20px;
+    margin-top: 20px; 
+    padding: 0px 45px;
+}
+
+/* For reference styling */
+
+.ref{
+    color: white;
+     /* background-color: skyblue; */
+    text-align: center;
+    padding: 24px 0px;
+}
+.ref a{
+    color: skyblue;
+
+}
+.bodycolor{
+    /* background-color: skyblue; */
+    background: rgba(0, 0, 0, 0.7) url('Austin\ A40\ Somerset.jpeg');
+}
+.ref1{
+    padding-top: 300px;
+
+    
+}
+.text-footer1{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    
+}
+
+
+
+
+/* for contact styling*/
+.contact{
+    /* background-color: gray; */
+    height: 833px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+     background: rgba(0, 0, 0, 0.7) url('Austin\ A40\ Somerset.jpeg'); 
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+
+}
+.form{
+    max-width:750px;
+    margin: 50px auto;
+    
+}
+.form-input{
+    width: 100%;
+    padding: 6px 13px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 12px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+
+
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+/* making Responsive*/
+.burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+        display: none;
+
+}
+.line{
+    width: 323%;
+    height: 4px;
+    margin: 5px 3px;
+    background-color: white;
+}
+
+/* carmodel styling*/
+
+* {
+    box-sizing: border-box;
+  }
+  img{
+    width: 100%;
+}
+ .logo{
+    display: block;
+ margin-left: 50%;
+ margin-right: 50%;
+  width: 25%;
+  padding: 34px 23px;
+  animation: slide 3s linear infinite;
+} 
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+button:hover {
+      background-color: skyblue;
+      color: white;
+}
+.nav-list li a.active {
+    font-weight: bold;
+    color: red;
+    background-color: aqua;
+    border-radius:50%;
+}
+
+.MyCars {
+    max-width: 1000px;
+    margin: auto;
+
+}
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+h4 {
+    font-size: 15px;
+    word-break: break-all;
+    text-align: center;
+}
+.row {
+    margin: 8px -16px;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.content:hover{
+    transform: scale(0.9);
+    box-shadow: -5px -5px -10px rgba(0,0,0,0.3);
+}
+.max img:hover{
+    transform: scale(0.7);
+    box-shadow: -5px -5px -10px rgba(0,0,0,0.3);
+}
+.Vintage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+  }
+  
+
+  
+/* Media Query to make Responsive when specific max-width will Hit specific length */
+@media only screen and (max-width: 1126px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        
+        height: 447px;
+        padding-top: 320px;
+        
+        
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px; ;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .main-box{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .form{
+        max-width: 62%;
+        margin: 25px auto;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .tex-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+    }
+    .para{
+        padding: 0px;
+    }
+    .logoImg{
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    
+    }
+    .secondhalf{
+        padding-top:0px; 
+    }
+    
+}
+

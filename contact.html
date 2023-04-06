@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!-- Navbar -->
+    <nav class="navbar backgroundIMG h-nav-resp">
+         
+         <!-- UL list is taken to make navbar -->
+        <ul class="nav-list v-class-resp">
+            <div class="logoImg"><img src="Austin_Logo.jpeg" alt="Company Logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="carmodel.html">Model</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reference.html">Reference</a></li>
+        </ul>
+         <!-- div tag to assign search button in navbar -->
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+         <!-- div tag for HamBurger  -->
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+            <!--  Making Contact Us -->
+    <section class="contact">
+               <!-- H2 tag to display Contact US -->
+        <h2 class="text-center">Contact Us</h2>
+         
+        <!-- Contact Us -->
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input class="form-input"  type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input"  type="email" name="email" id="email" placeholder="Enter Your Email">
+            <input class="form-input"  type="text" name="purchase" id="purchase" placeholder="Enter Car Model to Purchase">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Comment Section:"></textarea>
+            <button class="button"  onclick="returnText()">submit</button> 
+       </div>
+    </section>
+             
+          <!-- Footer section -->
+<footer>
+    <div class="footer-main-div">
+        <div class="footer-social-icons">
+            <ul>
+                <li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carmodel.html">Model</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reference.html">Reference</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2023 Austin Motor Company | All Rights Reserved.</p>
+    </div>
+</footer>
+      
+     <!-- Link to Js file -->
+    <script src="index.js"></script>
+</body>
+</html>
